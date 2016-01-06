@@ -59,10 +59,11 @@ li.nav{
 .box {
 	float: right;
 	position: fixed;
+	padding: 15px;
 	top: 150px;
 	right: 100px;
 	background-color: white;
-	width: 30%;
+	width: 50%;
 	min-width: 300px;
 	min-height: 300px;
 	max-height: 400px;
@@ -82,6 +83,14 @@ li.nav{
 }
 .author {
 	text-align: right;
+}
+
+.project {
+	font-weight: bold;
+}
+
+.about {
+	display: none;
 }
 
 @media screen and (max-width: 500px) {
